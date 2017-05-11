@@ -1,0 +1,16 @@
+﻿<Window x:Class="PDFHistoryGeneration.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PDFHistoryGeneration"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="101.589" Width="525">
+    <Grid>
+        <Button x:Name="generateHTMLButton" Content="Generate" HorizontalAlignment="Left" Margin="412,38,0,0" VerticalAlignment="Top" Width="95" Click="generateHTML_Click" Height="23"/>
+        <TextBox x:Name="chosenFileLocationTxtbox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Please choose a file where you want to append new data" VerticalAlignment="Top" Width="397" IsReadOnly="True" />
+        <Button x:Name="ChooseFileButton" Content="Choose a File" HorizontalAlignment="Left" Margin="412,10,0,0" VerticalAlignment="Top" Width="95" Height="23" Click="ChooseFile_Click"/>
+        <TextBox x:Name="generateFileLocationTxtbox" HorizontalAlignment="Left" Height="23" Margin="10,38,0,0" TextWrapping="Wrap" Text="D:\2.html" VerticalAlignment="Top" Width="397" IsReadOnly="True" />
+
+    </Grid>
+</Window>
